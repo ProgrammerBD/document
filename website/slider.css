@@ -1,0 +1,58 @@
+.container{
+  box-sizing: border-box;
+  
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10px;
+    border-style: solid;
+  border-width: 5px;
+  border-color: green;
+}
+
+.image-slider{
+    position: relative;
+    z-index: -3;
+	
+    width: 3840px;
+    animation-name: slideranimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+	 
+}
+.image-slider img{
+    float: left;
+}
+@keyframes slideranimation{
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -960px;
+
+    }
+    45%
+    {
+        left:-960px;
+    }
+    50%
+    {
+        left: -1920px;
+    }
+    70%
+    {
+        left: -1920px;
+    }
+    75%
+    {
+        left: -2880px;
+    }
+
+}

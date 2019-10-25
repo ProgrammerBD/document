@@ -1,0 +1,13 @@
+To create project:
+composer create-project --prefer-dist laravel/laravel blog
+
+TO SERVE
+php artisan serve
+
+
+MAKINNG MODEL 
+php artisan make:model 
+
+MIGRATING TABLE 
+php artisan migrate
+

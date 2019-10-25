@@ -1,0 +1,38 @@
+git version: git --version
+
+git basic user creation : git config --global user.name "Md Tanvir Hasan Anik"
+
+git basic user email setup: git config --global user.email "programmerbd71@gmail.com"
+
+crating a empty repository: git init
+
+
+.git is a file where where all tracking file is available
+
+stop repository track: rm -rf .git
+
+avoid file .gitignore
+
+git add .gitignore
+
+git log
+
+adding file repository
+adding all file 
+
+git add -A
+
+git back 
+
+git reset filname.extension/ git reset
+for all no extension
+// before staging commit
+
+git commit
+
+no status
+
+to get the  log
+git log
+
+
