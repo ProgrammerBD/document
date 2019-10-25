@@ -11,3 +11,8 @@ php artisan make:model
 MIGRATING TABLE 
 php artisan migrate
 
+AUTH:
+
+composer require laravel/ui --dev
+
+php artisan ui vue --auth
